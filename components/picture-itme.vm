@@ -1,0 +1,5 @@
+<a href="#" class="$!{data.imgId}">
+    <div class="imgWrap" data-largeImgUrl="$!{data.largeImgUrl}">
+        <img src="$!{data.minImgUrl}">
+    </div>
+</a>

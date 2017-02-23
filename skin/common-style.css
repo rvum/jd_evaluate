@@ -1,0 +1,206 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+html,
+body {
+  min-height: 100%;
+}
+body {
+  font-family: 'microsoft yahei', Arial, Verdana, "\5b8b\4f53";
+}
+@media (device-width: 320px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media (device-width: 640px) and (-webkit-device-pixel-ratio: 2) {
+  html {
+    font-size: 50px;
+  }
+}
+@media (device-width: 960px) and (-webkit-device-pixel-ratio: 3) {
+  html {
+    font-size: 50px;
+  }
+}
+@media (device-width: 360px) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media (device-width: 720px) and (-webkit-device-pixel-ratio: 2) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media (device-width: 1080px) and (-webkit-device-pixel-ratio: 3) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media (device-width: 375px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media (device-width: 750px) and (-webkit-device-pixel-ratio: 2) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media (device-width: 1125px) and (-webkit-device-pixel-ratio: 3) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media (device-width: 384px) {
+  html {
+    font-size: 60px;
+  }
+}
+@media (device-width: 768px) and (-webkit-device-pixel-ratio: 2) {
+  html {
+    font-size: 60px;
+  }
+}
+@media (device-width: 1152px) and (-webkit-device-pixel-ratio: 3) {
+  html {
+    font-size: 60px;
+  }
+}
+@media (device-width: 400px) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media (device-width: 800px) and (-webkit-device-pixel-ratio: 2) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media (device-width: 1200px) and (-webkit-device-pixel-ratio: 3) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media (device-width: 412px) {
+  html {
+    font-size: 64.375px;
+  }
+}
+@media (device-width: 824px) and (-webkit-device-pixel-ratio: 2) {
+  html {
+    font-size: 64.375px;
+  }
+}
+@media (device-width: 1236px) and (-webkit-device-pixel-ratio: 3) {
+  html {
+    font-size: 64.375px;
+  }
+}
+@media (device-width: 414px) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media (device-width: 828px) and (-webkit-device-pixel-ratio: 2) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media (device-width: 1242px) and (-webkit-device-pixel-ratio: 3) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media (device-width: 533px) {
+  html {
+    font-size: 83.28125px;
+  }
+}
+@media (device-width: 1066px) and (-webkit-device-pixel-ratio: 2) {
+  html {
+    font-size: 83.28125px;
+  }
+}
+@media (device-width: 1599px) and (-webkit-device-pixel-ratio: 3) {
+  html {
+    font-size: 83.28125px;
+  }
+}
+@media (device-width: 600px) {
+  html {
+    font-size: 93.75px;
+  }
+}
+@media (device-width: 1200px) and (-webkit-device-pixel-ratio: 2) {
+  html {
+    font-size: 93.75px;
+  }
+}
+@media (device-width: 1800px) and (-webkit-device-pixel-ratio: 3) {
+  html {
+    font-size: 93.75px;
+  }
+}
+@media (device-width: 768px) {
+  html {
+    font-size: 120px;
+  }
+}
+@media (device-width: 800px) {
+  html {
+    font-size: 125px;
+  }
+}
+@media (device-width: 853px) {
+  html {
+    font-size: 133.28125px;
+  }
+}
+@media (device-width: 960px) {
+  html {
+    font-size: 150px;
+  }
+}
+@media (device-width: 1024px) {
+  html {
+    font-size: 160px;
+  }
+}
+@media (device-width: 1280px) {
+  html {
+    font-size: 200px;
+  }
+}
+@media (device-width: 1366px) {
+  html {
+    font-size: 213.4375px;
+  }
+}
+.scroll-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.scroll {
+  position: absolute;
+}
+.scroll.horizontal {
+  white-space: nowrap;
+}
+.default-3d {
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}

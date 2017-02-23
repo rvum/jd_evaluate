@@ -1,0 +1,20 @@
+<div class="evaInfo imgEvaInfo$!{data.imgIdNum}">
+            <div class="info-txt">
+                <ul class="start" id="star">
+                    <li class="$!{data.active0}"></li>
+                    <li class="$!{data.active1}"></li>
+                    <li class="$!{data.active2}"></li>
+                    <li class="$!{data.active3}"></li>
+                    <li class="$!{data.active4}"></li>
+                </ul>
+                <p class="feed-txt" id="feed-txt">$!{data.content}</p>
+            </div>
+            <div class="comment-detail">
+                <a href="//red.m.jd.com/appComment/getCommentsByGuid.html?guid=$!{data.guid}">
+                    <span
+                        class="btn detail-btn">
+                    </span>
+                    评价详情
+                </a>
+            </div>
+</div>

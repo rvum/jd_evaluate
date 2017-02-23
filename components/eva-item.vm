@@ -1,0 +1,18 @@
+<section class="oneItem">
+    <header class="userInfo">
+        <h3 class="userName">$!{data.nickname}</h3>
+        <span class="time">$!{data.creationTime}</span>
+    </header>
+    <div class="evaDetails">
+        <ul class="star">
+            <li class="$!{data.active0}"></li>
+            <li class="$!{data.active1}"></li>
+            <li class="$!{data.active2}"></li>
+            <li class="$!{data.active3}"></li>
+            <li class="$!{data.active4}"></li>
+        </ul>
+        <p class="evaText">
+            $!{data.content}
+        </p>
+    </div>
+</section>

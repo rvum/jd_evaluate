@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./js/zepto.js"></script>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #a{
+            width:100%;
+
+        }
+        #b{
+            width:100%;
+            background-color: aquamarine;
+            position:relative;
+            float:left;
+            /*z-index:999;*/
+        }
+        #c{
+            width:100%;
+            background-color: #f44646;
+            position:relative;
+        }
+    </style>
+</head>
+<body>
+<div id="a">aaa
+    <div id="b">bbb
+    <div>faa</div></div>
+    <div id="c">ccc</div>
+</div>
+<script>
+    $("#b").on("click",function(){
+        alert("bbb");
+    })
+</script>
+
+</body>
+</html>
